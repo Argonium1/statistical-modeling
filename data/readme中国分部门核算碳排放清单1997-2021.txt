@@ -1,0 +1,101 @@
+sum
+    排放清单
+    原煤
+    净煤
+    其他水洗煤
+    煤砖
+    焦炭
+    焦炉煤气
+    其他气体
+    其他焦化产品
+    原油
+    汽油
+    煤油
+    柴油
+    燃油
+    液化石油气
+    炼油厂气体
+    其他石油产品
+    天然气
+    因使用外购热能（比如从地区供热网络购买的热力）用于供暖、工业过程等目的而引起的碳排放
+    企业自己并不生产这些电力，而是从电网购买并使用，而电力生产过程中（如在发电厂）产生的温室气体排
+    其他能源
+    生产、运输、使用产品或服务等活动中涉及的所有步骤，这些步骤都会直接或间接地产生温室气体排放
+    所有直接燃烧化石燃料（如天然气、煤炭、石油产品）产生的二氧化碳、工艺过程中的排放（如化工制造中的某些反应释放的温室气体）、以及组织拥有的车辆和设备产生的排放
+
+sum-sec-scope 1
+    总排放量
+    橡胶产品
+    塑料制品
+    非金属矿产品
+    黑色金属的冶炼与压延
+    有色金属的冶炼与压延
+    金属产品
+    普通机械
+    特殊用途设备
+    运输设备
+    电气设备和机械
+    电子和电信设备
+    仪器、仪表、文化和办公机械
+    其他制造业
+    废料和废物
+    电力、蒸汽和热水的生产与供应
+    天然气的生产和供应
+    自来水的生产和供应
+    建筑
+    运输、仓储、邮政和电信服务
+    批发、零售贸易和餐饮服务
+    其他
+    城市
+    乡村
+
+1997-2021
+    TotalEmissions（总排放）
+    Farming, Forestry, Animal Husbandry, Fishery and Water Conservancy（农业、林业、畜牧业、渔业及水利）
+    Coal Mining and Dressing（煤炭开采及洗选）
+    Petroleum and Natural Gas Extraction（石油和天然气开采）
+    Ferrous Metals Mining and Dressing（黑色金属矿开采及选矿）
+    Nonferrous Metals Mining and Dressing（有色金属矿开采及选矿）
+    Nonmetal Minerals Mining and Dressing（非金属矿开采及选矿）
+    Other Minerals Mining and Dressing（其他矿产开采及选矿）
+    Logging and Transport of Wood and Bamboo（木材与竹材采运）
+    Food Processing（食品加工）
+    Food Production（食品制造）
+    Beverage Production（饮料制造）
+    Tobacco Processing（烟草制品加工）
+    Textile Industry（纺织业）
+    Garments and Other Fiber Products（服装及其他纤维制品）
+    Leather, Furs, Down and Related Products（皮革、毛皮、羽毛及其制品）
+    Timber Processing, Bamboo, Cane, Palm Fiber & Straw Products（木材加工、竹藤棕草制品）
+    Furniture Manufacturing（家具制造业）
+    Papermaking and Paper Products（造纸及纸制品业）
+    Printing and Record Medium Reproduction（印刷和记录媒介复制）
+    Cultural, Educational and Sports Articles（文化、教育、体育用品）
+    Petroleum Processing and Coking（石油炼制及焦化）
+    Raw Chemical Materials and Chemical Products（基础化学原料及化学制品）
+    Medical and Pharmaceutical Products（医药制品）
+    Chemical Fiber（化学纤维）
+    Rubber Products（橡胶制品）
+    Plastic Products（塑料制品）
+    Nonmetal Mineral Products（非金属矿物制品）
+    Smelting and Pressing of Ferrous Metals（黑色金属冶炼及压延）
+    Smelting and Pressing of Nonferrous Metals（有色金属冶炼及压延）
+    Metal Products（金属制品业）
+    Ordinary Machinery（通用设备制造业）
+    Equipment for Special Purposes（专用设备制造业）
+    Transportation Equipment（交通运输设备制造业）
+    Electric Equipment and Machinery（电气机械及器材制造业）
+    Electronic and Telecommunications Equipment（电子和通讯设备制造业）
+    Instruments, Meters, Cultural and Office Machinery（仪器仪表及文化办公用机械）
+    Other Manufacturing Industry（其他制造业）
+    Scrap and Waste（废料及废弃物处理）
+    Production and Supply of Electric Power, Steam and Hot Water（电力、蒸汽、热水生产和供应）
+    Production and Supply of Gas（燃气生产和供应）
+    Production and Supply of Tap Water（自来水生产和供应）
+    Construction（建筑业）
+    Transportation, Storage, Post and Telecommunication Services（交通运输、仓储及邮政、电信服务业）
+    Wholesale, Retail Trade and Catering Services（批发零售贸易及餐饮业）
+    Others（其他）
+    Urban（城市）
+    Rural（农村）
+
