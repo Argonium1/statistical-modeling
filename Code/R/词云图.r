@@ -3,7 +3,7 @@ library(tm)
 library(wordcloud)
 library(wordcloud2)
 # 读取文本文件
-text <- readLines("F:\\Desktop\\processed_text.txt", warn = FALSE)
+text <- readLines("F:\\共享文件夹\\统计建模\\Code\\R\\调用文件\\processed_text.txt", warn = FALSE)
 
 # 将文本数据转换成文档对象
 corpus <- Corpus(VectorSource(text))
@@ -12,7 +12,7 @@ corpus <- Corpus(VectorSource(text))
 corpus <- tm_map(corpus, content_transformer(tolower)) # 转换为小写
 corpus <- tm_map(corpus, removePunctuation) # 去除标点符号
 corpus <- tm_map(corpus, removeNumbers) # 去除数字
-corpus <- tm_map(corpus, removeWords, c(stopwords("english"), "的")) # 去除停用词和特定单词
+corpus <- tm_map(corpus, removeWords, c(stopwords("english"), "的","和","为")) # 去除停用词和特定单词
 
 # 创建词频矩阵
 dtm <- DocumentTermMatrix(corpus)
@@ -36,5 +36,6 @@ freq_df <- rbind(freq_df, freq)
 freq_df[freq_df$word == "碳", "freq"] <- 300
 freq_df[freq_df$word == "排放", "freq"] <- 200
 
-# 生成心形词云图
+# 生成词云图
+pdf("词云图.pdf")
 wordcloud2(data = freq_df, shape = 'circle')
